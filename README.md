@@ -1,4 +1,4 @@
-### Hi there 👋, I'm Adeniyi Olamide - aka [ola.dev][http://aolamide.com]
+### Hi there 👋, I'm Adeniyi Olamide - aka [ola.dev][website]
 
 ## I'm a Full Stack Web Developer!
 - 🔭 I’m currently working on a project to help people to host basic public voting system
