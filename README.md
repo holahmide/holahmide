@@ -11,7 +11,7 @@
 
 ### connect with me:
 
-[<img align="left" alt="aolamide.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg"/>][website]
+[<img align="left" alt="aolamide.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg"/>][https://aolamide.com]
 
 
 
