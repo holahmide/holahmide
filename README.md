@@ -44,7 +44,7 @@
 <br />
 
 ![](https://github-readme-stats.vercel.app/api/top-langs?username=holahmide&show_icons=true&locale=en&layout=compact)
-![](https://github-readme-stats.vercel.app/api?username=damiisdandy&show_icons=true&locale=en)
+![](https://github-readme-stats.vercel.app/api?username=holahmide&show_icons=true&locale=en)
 
 [website]: https://aolamide.com
 [twitter]: https://twitter.com/Holahmide_
