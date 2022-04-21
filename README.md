@@ -9,7 +9,7 @@
 - 👨‍💻 All of my projects are available at https://github.com/holahmide, though most are private.
 - 💬 Ask me about VueJS, typescript and PHP
 - 📫 How to reach me: olami02bj@gmail.com
-- ⚡ Fun fact: I enjoy reading the most
+<!-- - ⚡ Fun fact: I prefer learning new stack by books than videos -->
 
 ### Connect with me:
 
