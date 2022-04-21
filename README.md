@@ -41,7 +41,10 @@
 [<img align="left" alt="Postman" width="26px" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" />](https://postman.com)
 [<img align="left" alt="Expressjs" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" />](https://postman.com)
 
+<br />
+
 ![](https://github-readme-stats.vercel.app/api/top-langs?username=holahmide&show_icons=true&locale=en&layout=compact)
+![](https://github-readme-stats.vercel.app/api?username=damiisdandy&show_icons=true&locale=en)
 
 [website]: https://aolamide.com
 [twitter]: https://twitter.com/Holahmide_
