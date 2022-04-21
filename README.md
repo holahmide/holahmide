@@ -9,12 +9,14 @@
 - 📫 How to reach me: olami02bj@gmail.com
 - ⚡ Fun fact: I enjoy reading the most
 
-### connect with me:
+### Connect with me:
 
 [<img align="left" alt="aolamide.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg"/>][website]
 [<img align="left" alt="ola.dev | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/twitter.svg"/>][twitter]
 [<img align="left" alt="ola.dev | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/linkedin.svg"/>][linkedin]
 [<img align="left" alt="ola.dev | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/instagram.svg"/>][instagram]
+
+<br />
 
 ### Languages and Tools:
 
@@ -32,7 +34,6 @@
 [<img align="left" alt="MySQL" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" style="padding-right:10px;" />](https://www.mysql.com/)
 [<img align="left" alt="Git" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style="padding-right:10px;" />](https://git-scm.com/)
 [<img align="left" alt="GitHub" width="26px" src="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png" style="padding-right:10px;" />](https://github.com/)
-[<img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/terminal.svg" />](#)
 [<img align="left" alt="Nuxt" width="26px"  src="https://cdn.worldvectorlogo.com/logos/nuxt-2.svg" />](https://nuxtjs.org/)
 [<img align="left" alt="Tailwindcss" width="26px" src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" />](https://tailwindcss.com/)
 [<img align="left" alt="Postman" width="26px" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" />](https://postman.com)
