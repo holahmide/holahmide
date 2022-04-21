@@ -16,11 +16,10 @@
 [<img align="left" alt="ola.dev | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/linkedin.svg"/>][linkedin]
 [<img align="left" alt="ola.dev | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/instagram.svg"/>][instagram]
 
-
 ### Languages and Tools:
 
-[<img align="left" alt="Visual Studio Code" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" style="padding-right:10px;" />][vscode]
-[<img align="left" alt="HTML5" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" style="padding-right:10px;" />][html5]
+[<img align="left" alt="Visual Studio Code" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" style="padding-right:10px;" />](https://code.visualstudio.com/)
+[<img align="left" alt="HTML5" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" style="padding-right:10px;" />](https://html5.org/)
 [<img align="left" alt="CSS3" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" style="padding-right:10px;" />](https://www.w3.org/Style/CSS/Overview.en.html)
 [<img align="left" alt="Sass" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" style="padding-right:10px;" />](https://sass-lang.com/)
 [<img align="left" alt="JavaScript" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="padding-right:10px;" />](https://www.javascript.com/)
@@ -39,7 +38,5 @@
 [twitter]: https://twitter.com/Holahmide_
 [linkedin]: https://linkedin.com/in/adeniyi-olamide-16990b169
 [Instagram]: https://instagram.com/_ola.dev
-[vscode]: https://code.visualstudio.com/
-[html5]: https://html5.org/
 
 
