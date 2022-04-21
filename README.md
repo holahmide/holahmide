@@ -1,16 +1,17 @@
-### Hi there 👋
+### Hi there 👋, I'm Adeniyi Olamide - aka [ola.dev][http://aolamide.com]
 
-<!--
-**holahmide/holahmide** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## I'm a Full Stack Web Developer!
+- 🔭 I’m currently working on a project to help people to host basic public voting system
+- 🌱 I’m currently learning Typescript and looking to go into GoLang soon.😆
+- 👯 I’m looking to collaborate on projects that solve real world problems and provide sustainable solutions for a better future.
+- 👨‍💻 All of my projects are available at https://github.com/holahmide, though most are private.
+- 💬 Ask me about VueJS, typescript and PHP
+- 📫 How to reach me: olami02bj@gmail.com
+- ⚡ Fun fact: I enjoy reading the most
 
-Here are some ideas to get you started:
+### connect with me:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[<img align="left" alt="aolamide.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg"/>][website]
+
+
+
