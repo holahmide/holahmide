@@ -3,11 +3,11 @@
 ![](https://komarev.com/ghpvc/?username=holahmide)
 
 ## I'm a Full Stack Web Developer
-- 🔭 I’m currently working on a project to help people to host basic public voting system
+- 🔭 I’m currently working on Brigow Homes.
 - 🌱 I’m currently learning Typescript and looking to go into GoLang soon.😆
 - 👯 I’m looking to collaborate on projects that solve real world problems and provide sustainable solutions for a better future.
 - 👨‍💻 All of my projects are available at https://github.com/holahmide, though most are private.
-- 💬 Ask me about VueJS, typescript and PHP
+- 💬 Ask me about VueJS, ReactJs, typescript and PHP.
 - 📫 How to reach me: olami02bj@gmail.com
 <!-- - ⚡ Fun fact: I prefer learning new stack by books than videos -->
 
