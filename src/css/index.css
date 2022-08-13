@@ -1,0 +1,34 @@
+.introduction-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:30
+}
+
+.introduction-left-content {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+
+}
+
+.introduction-right-content {
+    margin: 10px;
+    max-width: 600px;
+    border: 1px solid black;
+
+}
+
+.introduction-left-content__image {
+    width: 200px;
+    height: 200px;
+    border-radius: '20px';
+    border: 1px solid black;
+}
+
+@media screen and  (min-width: 500px) {
+    .introduction-container {
+        justify-content: center
+    }
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Home",
+        "url": "/"
+    },
+    {
+        "name": "Projects",
+        "url": "/#projects"
+    },
+    {
+        "name": "Resume",
+        "url": "/OLAMIDE-ADENIYI-RESUME.pdf"
+    }
+]

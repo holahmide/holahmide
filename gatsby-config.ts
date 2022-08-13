@@ -1,8 +1,14 @@
 import type { GatsbyConfig } from 'gatsby'
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`
+})
 
 const config: GatsbyConfig = {
   siteMetadata: {
     title: 'Adeniyi Olamide - Portfolio',
+    description: 'Adeniyi Olamide - Full Stack Web Developer Portfolio',
+    twitterUsername: '@_ola.dev',
+    image: '/gatsby-icon.png',
     siteUrl: 'https://www.yourdomain.tld'
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.

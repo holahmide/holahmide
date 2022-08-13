@@ -1,0 +1,50 @@
+[
+    {
+      "url": "https://helliomessaging.com",
+      "image": "hellio",
+      "title": "Hellio Messaging",
+      "description": "Hellio Messaging is a Single & Bulk SMS messaging app in West Africa."
+    },
+    {
+      "url": "https://ticket.jetronmall.com",
+      "image": "jetron",
+      "title": "Jetron Mall",
+      "description": "An intermediary online store making easy and stress-free exchange between brands and buyers."
+    },
+    {
+      "url": "",
+      "image": "church1",
+      "title": "Church Management System",
+      "description": " I developed a church management apllication with features such as member detail tracking, offering/tithe/contribution recording, seating assignment due to COVID-19, graphical statistics display for decision making etc."
+    },
+    {
+      "url": "https://ghm.lmu.edu.ng",
+      "image": "ghm",
+      "title": "Gilgal House Media",
+      "description": "Gilgal House Media is the media company that provides graphics and audio services."
+    },
+    {
+      "url": "https://ghm.lmu.edu.ng",
+      "image": "exam2",
+      "title": "CBT Examination",
+      "description": "I developed a fully functional examination web application that has been in use for 3+ years to examine applicants to the company."
+    },
+    {
+      "url": "/",
+      "image": "loan2",
+      "title": "Loan Management Application",
+      "description": "I and a team of developers worked on an application to manage the co-operative system of a school for staffs, it included features such as staff and guarantor details management admin and staff dashboard, realtime status update and notification etc."
+    },
+    {
+      "url": "https://tic-tac-toe.aolamide.com",
+      "image": "tictactoe",
+      "title": "Tic-Tac-Toe with Websocket",
+      "description": "I wanted to explore websockets😅, so i developed a simple multiplayer tictactoe game."
+    },
+    {
+      "url": "https://holahmide.github.io/memory-cards-with-VueJS/",
+      "image": "memory-cards",
+      "title": "Memory Cards ",
+      "description": "A simple memory cards game."
+    }
+  ]
