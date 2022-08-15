@@ -58,13 +58,12 @@ const NavBar: FC = () => {
             )}
           </HStack>
 
-          {/* Call to action items */}
           <HStack spacing="3">
             {/* <colorModeSwitcher /> */}
             <Box display={{ base: 'none', md: 'inline' }}>
-              <Link to="#contact-me">
+              <AnchorLink to="#contact-me" title="Contact Me" className="stripped" stripHash>
                 <ButtonComponent text="Contact Me"></ButtonComponent>
-              </Link>
+              </AnchorLink>
             </Box>
             <MobileDrawer />
           </HStack>
