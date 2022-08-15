@@ -5,14 +5,14 @@ require('dotenv').config({
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: 'Adeniyi Olamide - Portfolio',
+    title: 'Adeniyi Olamide Portfolio',
     description: 'Adeniyi Olamide - Full Stack Web Developer Portfolio',
-    image: '/gatsby-icon.png',
-    siteUrl: 'https://www.yourdomain.tld',
+    image: '/seo/index.png',
+    siteUrl: 'https://oladev.net',
     social: {
       twitter: `_ola.dev`
     },
-    colorTheme: '#ffe367',
+    colorTheme: '#2D3748',
     author: 'Adeniyi Olamide'
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
@@ -66,8 +66,7 @@ const config: GatsbyConfig = {
          * @property {boolean} [isUsingColorMode=true]
          * if false, this plugin will not use <ColorModeProvider />
          */
-        isUsingColorMode: true,
-        initialColorMode: 'dark'
+        isUsingColorMode: true
       }
     },
     {

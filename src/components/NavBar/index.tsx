@@ -28,7 +28,7 @@ const NavBar: FC = () => {
   return (
     <chakra.header id="header">
       <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.3 }}>
-        <Flex w="100%" h="10vh" minHeight="70px" maxHeight="80px" py="5" align="center" justify="space-between" mb={10}>
+        <Flex w="100%" h="10vh" minHeight="70px" maxHeight="80px" py="5" align="center" justify="space-between" mb={'5px'}>
           {/* Logo */}
           <Text fontSize="2xl" casing={'uppercase'}>
             <b>ola.dev</b>
