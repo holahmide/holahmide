@@ -23,7 +23,7 @@ import './index.css';
 const NavBar: FC = () => {
   const { pathname, href } = useLocation();
 
-  localStorage.setItem('chakra-ui-color-mode', 'dark');
+  if (typeof window !== 'undefined') localStorage.setItem('chakra-ui-color-mode', 'dark');
 
   return (
     <chakra.header id="header">
