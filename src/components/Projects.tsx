@@ -35,6 +35,7 @@ const Projects = ({ data }: { data: any }) => {
           (project, index) =>
             (index < projectCount || projectCount === 0) && (
               <motion.div
+                key={index}
                 viewport={{ once: true }}
                 initial={{ scale: 0.5 }}
                 whileInView={{ scale: 1 }}
