@@ -12,9 +12,7 @@ import {
 } from '@chakra-ui/react';
 import { IoMdMenu } from 'react-icons/io';
 import React, { FC } from 'react';
-import { Link } from 'gatsby';
 import Links from './links.json';
-import LinkComponent from '../Link';
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import { motion } from 'framer-motion';
 
