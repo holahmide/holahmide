@@ -103,7 +103,7 @@ const IndexPage = ({ data }: { data: any }) => {
             whileInView={{ scale: 1 }}
             transition={{ duration: 0.6 }}
           >
-            <Box boxShadow="2xl" p={5} fontSize="lg" maxWidth={'420px'}>
+            <Box boxShadow="2xl" p={5} fontSize="lg" width={100} maxWidth={'420px'}>
               <Text textAlign="center" fontSize="6xl">
                 🤭
               </Text>
