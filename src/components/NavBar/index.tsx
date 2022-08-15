@@ -21,9 +21,6 @@ import './index.css';
 // };
 
 const NavBar: FC = () => {
-  const { colorMode, toggleColorMode } = useColorMode();
-  if (colorMode == 'light') toggleColorMode();
-
   const { pathname, href } = useLocation();
 
   return (
