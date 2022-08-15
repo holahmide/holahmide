@@ -1,38 +1,64 @@
-/* eslint-disable react/jsx-key */
 import React, { FC } from 'react';
-import { Box, chakra, Flex, HStack, Text, useColorMode } from '@chakra-ui/react';
+import { Box, Button, chakra, Flex, HStack, Text, useColorMode } from '@chakra-ui/react';
 import { Link } from 'gatsby';
 import MobileDrawer from './Drawer';
-import { IoMdSunny, IoMdMoon } from 'react-icons/io';
+// import { IoMdSunny, IoMdMoon } from 'react-icons/io';
 import { motion } from 'framer-motion';
-import ButtonComponent from '../Button';
+import ButtonComponent from '../UI/Button';
 import Links from './links.json';
-import LinkComponent from '../Link';
+import { AnchorLink } from 'gatsby-plugin-anchor-links';
+import { useLocation } from '@reach/router';
+import './index.css';
+
+// const colorModeSwitcher = () => {
+//   const { colorMode, toggleColorMode } = useColorMode();
+
+//   return (
+//     <Box onClick={() => toggleColorMode()}>
+//       {colorMode === 'light' ? <IoMdMoon cursor="pointer" size="26px" /> : <IoMdSunny cursor="pointer" size="26px" />}
+//     </Box>
+//   );
+// };
 
 const NavBar: FC = () => {
-  const { colorMode, toggleColorMode } = useColorMode();
+  const { pathname, href } = useLocation();
 
   return (
     <chakra.header id="header">
       <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.3 }}>
-        <Flex w="100%" h="20vh" minHeight="70px" maxHeight="80px" py="5" align="center" justify="space-between">
+        <Flex w="100%" h="10vh" minHeight="70px" maxHeight="80px" py="5" align="center" justify="space-between" mb={10}>
           {/* Logo */}
           <Text fontSize="2xl" casing={'uppercase'}>
             <b>ola.dev</b>
           </Text>
-          {/* <Image src={Logo.src} h="50px" /> */}
 
           {/* Nav Items */}
           <HStack as="nav" spacing="5" display={{ base: 'none', md: 'inline' }}>
-            {Links.map((link, index) => (
-              <LinkComponent key={index} url={link.url} name={link.name} />
-            ))}
+            {Links.map(
+              (link, index) =>
+                link.visible && (
+                  <motion.div
+                    key={index}
+                    style={{ display: 'inline', paddingBottom: '10px' }}
+                    whileHover={{ borderBottom: '2px solid blue' }}
+                  >
+                    {link.url.includes('.pdf') ? (
+                      <a href={link.url} target={'_blank'}>
+                        <Button variant="nav">{link.name}</Button>
+                      </a>
+                    ) : (
+                      <AnchorLink to={link.url} title={link.title} className="stripped" stripHash>
+                        <Button variant="nav">{link.name}</Button>
+                      </AnchorLink>
+                    )}
+                  </motion.div>
+                )
+            )}
           </HStack>
+
           {/* Call to action items */}
           <HStack spacing="3">
-            <Box onClick={() => toggleColorMode()}>
-              {colorMode === 'light' ? <IoMdMoon cursor="pointer" size="26px" /> : <IoMdSunny cursor="pointer" size="26px" />}
-            </Box>
+            {/* <colorModeSwitcher /> */}
             <Box display={{ base: 'none', md: 'inline' }}>
               <Link to="#contact-me">
                 <ButtonComponent text="Contact Me"></ButtonComponent>

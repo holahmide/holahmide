@@ -7,8 +7,8 @@ import { Link, graphql } from 'gatsby';
 import { motion } from 'framer-motion';
 import { BsInstagram, BsTwitter, BsGithub, BsLinkedin } from 'react-icons/bs';
 import Projects from '../components/Projects';
-import ButtonComponent from '../components/Button';
-import SEO from '../components/seo';
+import ButtonComponent from '../components/UI/Button';
+import SEO from '../components/SEO';
 // import { FaDev } from 'react-icons/fa'
 
 const socialsIconSize = '20px';
@@ -27,50 +27,62 @@ const headerStyles: any = {
 const IndexPage = ({ data }: { data: any }) => {
   return (
     <Layout>
-      <motion.div initial={{ y: '100%' }} animate={{ y: -10 }} transition={{ duration: 1 }}>
+      <motion.div initial={{ y: '100%' }} animate={{ y: -20 }} transition={{ duration: 1 }}>
         <Center h="90vh" mb="12">
           <Box>
             <Box style={{ display: 'flex', flexWrap: 'wrap', gap: 30 }} justifyContent={{ base: 'center' }}>
-              <Box width={{ base: '180px', md: '300px' }} height={{ base: '180px', md: '350px' }}>
+              <Box
+                width={{ base: '300px', sm: '200px', md: '500px', lg: '300px' }}
+                height={{ base: '350px', sm: '200px', md: '500px', lg: '350px' }}
+                mb={10}
+              >
                 <StaticImage
+                  quality={100}
                   style={{ borderRadius: '20px', width: '100%', height: '100%' }}
                   src="../images/portrait.jpg"
                   alt="My Picture"
                   placeholder="blurred"
                 />
                 <Flex marginTop="20px" justifyContent={'center'} gap="5">
-                  <a href="/" target="_blank" rel="noopener noreferrer">
+                  <a href={process.env.GATSBY_INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
                     <BsInstagram fontSize={socialsIconSize} />
                   </a>
-                  <a href="/" target="_blank" rel="noopener noreferrer">
+                  <a href={process.env.GATSBY_GITHUB_URL} target="_blank" rel="noopener noreferrer">
                     <BsGithub fontSize={socialsIconSize} />
                   </a>
-                  <a href="/" target="_blank" rel="noopener noreferrer">
+                  <a href={process.env.GATSBY_LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
                     <BsLinkedin fontSize={socialsIconSize} />
                   </a>
-                  <a href="/" target="_blank" rel="noopener noreferrer">
+                  <a href={process.env.GATSBY_TWITTER_URL} target="_blank" rel="noopener noreferrer">
                     <BsTwitter fontSize={socialsIconSize} />
                   </a>
                 </Flex>
               </Box>
               <Box maxWidth={'600px'}>
                 <Text fontSize={{ base: 'md', md: 'lg' }} textAlign="left" color="grey.300">
-                  <Text fontSize={{ base: '2xl', md: '4xl' }}>Hi 👋</Text>
-                  <br />
-                  <Text>
-                    I am <b>Adeniyi Olamide</b>, best called <b>ola</b>! I build <u>great stuffs</u> for the web 🚀.
+                  <Text
+                    display={{ base: 'none', sm: 'inline' }}
+                    fontSize={{ base: '2xl', md: '4xl' }}
+                    textAlign={{ base: 'center', md: 'left' }}
+                    mb="20px"
+                  >
+                    Hi 👋
+                    <br />
                   </Text>
-                  <br />
-                  <Text>
+                  <Text my={{ base: '0', lg: '20px' }}>
+                    I am <b>Adeniyi Olamide</b>, best called <b>ola</b>! I build great stuffs for the web 🚀.
+                    <br />
+                  </Text>
+                  <Text mb="20px">
                     I really love <b>programming</b> especially <b>web development</b>, I build, design & scale full-stack web
                     applications.
+                    <br />
                   </Text>
-                  <br />
-                  <Text>
+                  <Text my="20px" display={{ base: 'none', sm: 'inline' }}>
                     I love my work, it has allowed me to understand development of digital products and how it affects our users.
+                    <br />
                   </Text>
-                  <br />
-                  <Text>Scroll down to know more about me!</Text>
+                  <Text my={{ base: '0', lg: '20px' }}>Scroll down to know more about me!</Text>
                 </Text>
               </Box>
             </Box>
@@ -80,7 +92,7 @@ const IndexPage = ({ data }: { data: any }) => {
 
       <Box mb={10} display="block">
         <Box mb={10} display="block">
-          <Text fontSize={{ base: 'xl', md: '3xl' }} style={headerStyles}>
+          <Text fontSize={{ base: '2xl', md: '3xl' }} style={headerStyles}>
             <b>Skills & Technologies</b>
           </Text>
         </Box>
@@ -130,8 +142,8 @@ const IndexPage = ({ data }: { data: any }) => {
                 <code style={languageHighlightStyles}>Javascript</code>,<code style={languageHighlightStyles}>PHP</code>,
                 <code style={languageHighlightStyles}>MySQL</code>,<code style={languageHighlightStyles}>NoSQL</code>, <br />
                 <code style={languageHighlightStyles}>ExpressJS</code>,<code style={languageHighlightStyles}>Laravel</code>,
-                <code style={languageHighlightStyles}>MongoDB </code>,<code style={languageHighlightStyles}>MySQL</code>,
-                <code style={languageHighlightStyles}>GrahQL/REST</code>
+                <code style={languageHighlightStyles}>MongoDB </code>
+                <code style={languageHighlightStyles}>MySQL</code>,<code style={languageHighlightStyles}>GrahQL/REST</code>
                 <br />
               </div>
             </Box>
@@ -166,7 +178,7 @@ const IndexPage = ({ data }: { data: any }) => {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6 }}
           >
-            <Text fontSize={{ base: 'xl', md: '3xl' }} pl="12" mb="10" style={headerStyles}>
+            <Text fontSize={{ base: '2xl', md: '3xl' }} mb="10" style={headerStyles}>
               <b>About Me</b>
             </Text>
             {/* {aboutMe.map((line, index) => {
@@ -209,7 +221,7 @@ const IndexPage = ({ data }: { data: any }) => {
 
       <Box display={'block'} id="projects">
         <Box mb="10">
-          <Text fontSize={{ base: 'xl', md: '3xl' }} pl="12" mb="10" style={headerStyles}>
+          <Text fontSize={{ base: '2xl', md: '3xl' }} pl="12" mb="10" style={headerStyles}>
             <b>Projects</b>
           </Text>
 
@@ -223,27 +235,32 @@ const IndexPage = ({ data }: { data: any }) => {
         </Text>
         <Text>
           Write me an{' '}
-          <Link to={`mailto:${process.env.EMAIL_ADDRESS}`} style={{ textDecoration: 'underline' }}>
+          <Link to={`mailto:${process.env.GATSBY_EMAIL_ADDRESS}`} style={{ textDecoration: 'underline' }}>
             email
           </Link>
         </Text>
         <Text>
           Call me on my{' '}
-          <Link to={`tel:${process.env.PHONE_NUMBER}`} style={{ textDecoration: 'underline' }}>
+          <Link to={`tel:${process.env.GATSBY_PHONE_NUMBER}`} style={{ textDecoration: 'underline' }}>
             phone
           </Link>
         </Text>
         <p>
           Find me on&nbsp;
-          <Link target="_blank" to={`/${process.env.TWITTER_URL}`} style={{ textDecoration: 'underline' }}>
+          <Link target="_blank" to={`${process.env.GATSBY_TWITTER_URL}`} style={{ textDecoration: 'underline' }}>
             twitter
           </Link>{' '}
           or&nbsp;
-          <Link target="_blank" rel="noreferrer" to={`/${process.env.LINKEDIN_URL}`} style={{ textDecoration: 'underline' }}>
+          <Link
+            target="_blank"
+            rel="noreferrer"
+            to={`${process.env.GATSBY_LINKEDIN_URL}`}
+            style={{ textDecoration: 'underline' }}
+          >
             LinkedIn
           </Link>
         </p>
-        <ButtonComponent text="Book a meeting"></ButtonComponent>
+        {/* <ButtonComponent text="Book a meeting"></ButtonComponent> */}
       </Box>
     </Layout>
   );

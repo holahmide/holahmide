@@ -11,7 +11,7 @@ const Layout: FC<Props> = ({ children }) => {
     <div
       style={{
         margin: '0 auto',
-        maxWidth: 1000,
+        maxWidth: '1000px',
         minHeight: '100vh',
         padding: '0 1rem'
       }}

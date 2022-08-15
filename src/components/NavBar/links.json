@@ -1,14 +1,26 @@
 [
     {
         "name": "Home",
-        "url": "/"
+        "url": "/",
+        "title": "Check out Adeniyi Olamide Portfolio",
+        "visible": true
     },
     {
         "name": "Projects",
-        "url": "/#projects"
+        "url": "/#projects",
+        "title": "Check out Adeniyi Olamide Projects",
+        "visible": true
     },
     {
         "name": "Resume",
-        "url": "/OLAMIDE-ADENIYI-RESUME.pdf"
+        "url": "/OLAMIDE-ADENIYI-RESUME.pdf",
+        "title": "Adeniyi Olamide Resume",
+        "visible": true
+    },
+    {
+        "name": "Contact Me",
+        "url": "/#contact-me",
+        "title": "Find my Contact Links",
+        "visible": false
     }
 ]
