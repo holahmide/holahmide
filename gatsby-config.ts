@@ -66,7 +66,8 @@ const config: GatsbyConfig = {
          * @property {boolean} [isUsingColorMode=true]
          * if false, this plugin will not use <ColorModeProvider />
          */
-        isUsingColorMode: true
+        isUsingColorMode: true,
+        initialColorMode: 'dark'
       }
     },
     {

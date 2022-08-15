@@ -23,6 +23,8 @@ import './index.css';
 const NavBar: FC = () => {
   const { pathname, href } = useLocation();
 
+  localStorage.setItem('chakra-ui-color-mode', 'dark');
+
   return (
     <chakra.header id="header">
       <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.3 }}>
