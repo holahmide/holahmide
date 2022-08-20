@@ -105,7 +105,7 @@ const IndexPage = ({ data }: { data: any }) => {
           >
             <Box boxShadow="2xl" p={5} fontSize="lg" maxWidth={'420px'}>
               <Text textAlign="center" fontSize="6xl">
-                🤭
+                👨‍💻
               </Text>
               <Text textAlign="center" fontSize="xl">
                 <b>Frontend Development</b>
@@ -131,7 +131,7 @@ const IndexPage = ({ data }: { data: any }) => {
           >
             <Box boxShadow="2xl" p="5" fontSize="lg" maxWidth={'420px'}>
               <Text textAlign="center" fontSize="6xl">
-                😎
+                🛠️
               </Text>
               <Text textAlign="center" fontSize="xl">
                 <b>Backend Development</b>
