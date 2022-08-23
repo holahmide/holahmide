@@ -42,7 +42,7 @@ const Projects = ({ data }: { data: any }) => {
                 transition={{ duration: 0.6 }}
               >
                 <Box fontSize="lg" key={index} maxWidth={'450px'} style={{ cursor: 'pointer' }}>
-                  <Link to={project.url}>
+                  <Link to={project.url} target="_blank">
                     <GatsbyImage
                       style={{ borderRadius: '10px', maxWidth: 450 }}
                       image={project.gatsbyImage.node.gatsbyImageData}
