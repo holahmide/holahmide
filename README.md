@@ -39,7 +39,7 @@
 [<img align="left" alt="Tailwindcss" width="26px" src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" />](https://tailwindcss.com/)
 [<img align="left" alt="Postman" width="26px" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" />](https://postman.com)
 [<img align="left" alt="Expressjs" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" />](https://postman.com)
-[<img align="left" alt="Expressjs" width="26px" src="https://www.vectorlogo.zone/logos/react/react-icon.svg" />](https://reactjs.org)
+[<img align="left" alt="Reactjs" width="26px" src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" />](https://reactjs.org)
 
 <br />
 <br />
