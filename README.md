@@ -13,7 +13,7 @@
 
 - 💬 Ask me about **ReactJs, VueJS, typescript, web3 and PHP.**
 
-- 📫 How to reach me **helloo@oladev.net**
+- 📫 How to reach me **hello@oladev.net**
 
 - ⚡ Fun fact **Please wait, checking for one ...**
 
