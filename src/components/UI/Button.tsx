@@ -10,7 +10,9 @@ const buttonVariant = {
 const ButtonComponent = ({ text }: { text: any }) => {
   return (
     <motion.button whileTap={buttonVariant.tap} whileHover={buttonVariant.hover}>
-      <Button mt={2}>{text}</Button>
+      <Button bg="gray.700" mt={2}>
+        {text}
+      </Button>
     </motion.button>
   );
 };
