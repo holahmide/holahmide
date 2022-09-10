@@ -8,7 +8,7 @@ import ButtonComponent from '../UI/Button';
 import Links from './links.json';
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import { useLocation } from '@reach/router';
-import './index.css';
+import './index.module.css';
 
 // const colorModeSwitcher = () => {
 //   const { colorMode, toggleColorMode } = useColorMode();
@@ -27,7 +27,7 @@ const NavBar: FC = () => {
 
   return (
     <chakra.header id="header">
-      <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.3 }}>
+      <div>
         <Flex w="100%" h="10vh" minHeight="70px" maxHeight="80px" py="5" align="center" justify="space-between" mb={'5px'}>
           {/* Logo */}
           <Text fontSize="2xl" casing={'uppercase'}>
@@ -68,7 +68,7 @@ const NavBar: FC = () => {
             <MobileDrawer />
           </HStack>
         </Flex>
-      </motion.div>
+      </div>
     </chakra.header>
   );
 };
