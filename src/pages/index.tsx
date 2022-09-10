@@ -118,7 +118,7 @@ const IndexPage = ({ data }: { data: any }) => {
                 <br />
                 <code style={languageHighlightStyles}>ReactJS</code>,<code style={languageHighlightStyles}>VueJS</code>,
                 <code style={languageHighlightStyles}>Tailwindcss</code>. <br />I also convert Figma/Adobe Xd design to
-                VueJS/NuxtJS frontend pages.
+                React/NextJS frontend pages.
               </div>
             </Box>
           </motion.div>
