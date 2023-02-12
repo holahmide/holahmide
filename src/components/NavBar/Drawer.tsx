@@ -23,7 +23,7 @@ const MobileDrawer: FC = () => {
   return (
     <Flex display={{ md: 'none' }}>
       {/* Menu Button */}
-      <Button onClick={onOpen}>
+      <Button onClick={onOpen} color="#FF6B46">
         <IoMdMenu size="26px" />
       </Button>
 
@@ -32,7 +32,7 @@ const MobileDrawer: FC = () => {
         <DrawerOverlay />
         <DrawerContent>
           <DrawerCloseButton />
-          <DrawerBody style={{ padding: 0, margin: 0 }}>
+          <DrawerBody style={{ padding: 0, margin: 0 }} bgColor="gray.800">
             <Center style={{ width: '100%' }}>
               <VStack style={{ marginTop: '30vh', width: '100%', textAlign: 'center' }}>
                 {Links.map((link, index) => (
@@ -41,7 +41,6 @@ const MobileDrawer: FC = () => {
                     style={{
                       display: 'block',
                       paddingBottom: '10px',
-                      borderBottom: '1px solid white',
                       width: '100%'
                     }}
                     whileHover={{ color: 'blue', scale: 1.1 }}

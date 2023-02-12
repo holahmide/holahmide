@@ -28,6 +28,8 @@ const Projects = ({ data }: { data: any }) => {
     [data]
   );
 
+  const shouldExtend = projectCount <= initialVisibleProjects && projectCount !== 0;
+
   return (
     <Box>
       <Flex wrap="wrap" gap={8} justifyContent="center">
@@ -60,16 +62,10 @@ const Projects = ({ data }: { data: any }) => {
             )
         )}
       </Flex>
-      <Box display={'block'} textAlign={'center'} mt={10}>
-        {projectCount <= initialVisibleProjects && projectCount !== 0 ? (
-          <Button bg={'transparent'} border={'1px'} onClick={showAllProject}>
-            Show More Projects
-          </Button>
-        ) : (
-          <Button bg={'transparent'} border={'1px'} onClick={showLessProject}>
-            Show Less Projects
-          </Button>
-        )}
+      <Box display="block" textAlign="center" mt={10}>
+        <Button bg="transparent" border="1px" color="#FF6B46" onClick={shouldExtend ? showAllProject : showLessProject}>
+          {shouldExtend ? 'Show More Projects' : 'Show Less Projects'}
+        </Button>
       </Box>
     </Box>
   );

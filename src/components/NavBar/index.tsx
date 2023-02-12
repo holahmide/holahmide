@@ -1,24 +1,12 @@
 import React, { FC } from 'react';
-import { Box, Button, chakra, Flex, HStack, Text, useColorMode } from '@chakra-ui/react';
-import { Link } from 'gatsby';
+import { Box, Button, chakra, Flex, HStack, Text } from '@chakra-ui/react';
 import MobileDrawer from './Drawer';
-// import { IoMdSunny, IoMdMoon } from 'react-icons/io';
 import { motion } from 'framer-motion';
 import ButtonComponent from '../UI/Button';
 import Links from './links.json';
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import { useLocation } from '@reach/router';
 import './index.module.css';
-
-// const colorModeSwitcher = () => {
-//   const { colorMode, toggleColorMode } = useColorMode();
-
-//   return (
-//     <Box onClick={() => toggleColorMode()}>
-//       {colorMode === 'light' ? <IoMdMoon cursor="pointer" size="26px" /> : <IoMdSunny cursor="pointer" size="26px" />}
-//     </Box>
-//   );
-// };
 
 const NavBar: FC = () => {
   const { pathname, href } = useLocation();
@@ -28,9 +16,9 @@ const NavBar: FC = () => {
   return (
     <chakra.header id="header">
       <div>
-        <Flex w="100%" h="10vh" minHeight="70px" maxHeight="80px" py="5" align="center" justify="space-between" mb={'5px'}>
+        <Flex w="100%" h="10vh" minHeight="70px" maxHeight="80px" py="5" align="center" justify="space-between" mb="5px">
           {/* Logo */}
-          <Text fontSize="2xl" casing={'uppercase'}>
+          <Text fontSize="2xl" casing="uppercase" color="#FF6B46">
             <b>ola.dev</b>
           </Text>
 
@@ -42,16 +30,19 @@ const NavBar: FC = () => {
                   <motion.div
                     key={index}
                     style={{ display: 'inline', paddingBottom: '10px' }}
-                    whileHover={{ borderBottom: '2px solid blue' }}
+                    whileHover={{ color: '#F06543' }}
+                    transition={{ duration: '0.1' }}
                   >
                     {link.url.includes('.pdf') ? (
                       <a href={link.url} target={'_blank'}>
                         <Button variant="nav">{link.name}</Button>
                       </a>
                     ) : (
-                      <AnchorLink to={link.url} title={link.title} className="stripped" stripHash>
-                        <Button variant="nav">{link.name}</Button>
-                      </AnchorLink>
+                      <span style={{ color: link.name.includes('Home') ? '#F06543' : '' }}>
+                        <AnchorLink to={link.url} title={link.title} className="stripped" stripHash>
+                          <Button variant="nav">{link.name}</Button>
+                        </AnchorLink>
+                      </span>
                     )}
                   </motion.div>
                 )
