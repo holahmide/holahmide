@@ -12,16 +12,22 @@
     "description": "Jetron Tickets is an event hub where anyone can discover new events, read about past events and get tickets for these events."
   },
   {
-    "url": "",
-    "image": "church1",
-    "title": "Church Management System",
-    "description": " I developed a church management apllication with features such as member detail tracking, offering/tithe/contribution recording, seating assignment due to COVID-19, graphical statistics display for decision making etc."
+    "url": "https://jambird.com",
+    "image": "jambird",
+    "title": "Jam Bird",
+    "description": "Fun Slack and Web application that gives your remote team a feel for the pulse across all the teams within your company."
   },
   {
     "url": "",
     "image": "coe",
     "title": "COE Voting Site",
     "description": "A fully responsive and interactive voting site with up to 1500+ users for an annual election."
+  },
+  {
+    "url": "",
+    "image": "church1",
+    "title": "Church Management System",
+    "description": " I developed a church management apllication with features such as member detail tracking, offering/tithe/contribution recording, seating assignment due to COVID-19, graphical statistics display for decision making etc."
   },
   {
     "url": "https://ghm.lmu.edu.ng",
