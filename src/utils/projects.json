@@ -1,11 +1,5 @@
 [
   {
-    "url": "https://helliomessaging.com",
-    "image": "hellio",
-    "title": "Hellio Messaging",
-    "description": "Hellio Messaging is a Single & Bulk SMS messaging app in West Africa."
-  },
-  {
     "url": "https://ticket.jetronmall.com",
     "image": "jetron-ticket",
     "title": "Jetron Ticket",
@@ -18,16 +12,22 @@
     "description": "Fun Slack and Web application that gives your remote team a feel for the pulse across all the teams within your company."
   },
   {
-    "url": "",
-    "image": "coe",
-    "title": "COE Voting Site",
-    "description": "A fully responsive and interactive voting site with up to 1500+ users for an annual election."
+    "url": "https://brigow.com",
+    "image": "brigow",
+    "title": "Brigow Homes",
+    "description": "Brigow makes it a top priority to ensure that customers are confident and informed throughout the entire process of short-let bookings and rental choice"
   },
   {
-    "url": "",
-    "image": "church1",
-    "title": "Church Management System",
-    "description": " I developed a church management apllication with features such as member detail tracking, offering/tithe/contribution recording, seating assignment due to COVID-19, graphical statistics display for decision making etc."
+    "url": "https://brigow.com",
+    "image": "listing",
+    "title": "Brigow Listing",
+    "description": "Brigow Property Listing is a platform that allows users to upload property details to provide our end users with suitable browsing experience."
+  },
+  {
+    "url": "https://helliomessaging.com",
+    "image": "hellio",
+    "title": "Hellio Messaging",
+    "description": "Hellio Messaging is a Single & Bulk SMS messaging app in West Africa."
   },
   {
     "url": "https://ghm.lmu.edu.ng",
@@ -42,10 +42,16 @@
     "description": "I developed a fully functional examination web application that has been in use for 3+ years to examine applicants to the company."
   },
   {
-    "url": "/",
-    "image": "loan2",
-    "title": "Loan Management Application",
-    "description": "I and a team of developers worked on an application to manage the co-operative system of a school for staffs, it included features such as staff and guarantor details management admin and staff dashboard, realtime status update and notification etc."
+    "url": "",
+    "image": "coe",
+    "title": "COE Voting Site",
+    "description": "A fully responsive and interactive voting site with up to 1500+ users for an annual election."
+  },
+  {
+    "url": "",
+    "image": "church1",
+    "title": "Church Management System",
+    "description": " I developed a church management apllication with features such as member detail tracking, offering/tithe/contribution recording, seating assignment due to COVID-19, graphical statistics display for decision making etc."
   },
   {
     "url": "https://tic-tac-toe.aolamide.com",
