@@ -6,11 +6,12 @@ require('dotenv').config({
 const config: GatsbyConfig = {
   siteMetadata: {
     title: 'Adeniyi Olamide Portfolio',
-    description: 'Adeniyi Olamide - Full Stack Web Developer Portfolio',
+    description:
+      "I'm Adeniyi Olamide, best called ola! I build great stuffs for the web 🚀. I really love programming especially web applications development, I build, design & scale full-stack web applications.",
     image: '/seo/index.png',
     siteUrl: 'https://oladev.net',
     social: {
-      twitter: `_ola.dev`
+      twitter: `_oladev`
     },
     colorTheme: '#2D3748',
     author: 'Adeniyi Olamide'
@@ -20,7 +21,7 @@ const config: GatsbyConfig = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: '  '
+        trackingId: 'G-HCJLS0GEEH'
       }
     },
     'gatsby-plugin-image',
@@ -32,7 +33,6 @@ const config: GatsbyConfig = {
         icon: 'src/images/icon.png'
       }
     },
-    // 'gatsby-plugin-mdx',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {

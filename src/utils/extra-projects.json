@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://tic-tac-toe.aolamide.com",
+    "image": "tictactoe",
+    "title": "Tic-Tac-Toe with Websocket",
+    "description": "I wanted to explore websockets😅, so i developed a simple multiplayer tictactoe game."
+  },
+  {
+    "url": "https://ghm.lmu.edu.ng",
+    "image": "ghm",
+    "title": "Gilgal House Media",
+    "description": "Gilgal House Media is the media company that provides graphics and audio services."
+  },
+  {
+    "url": "https://ghm.lmu.edu.ng",
+    "image": "exam2",
+    "title": "CBT Examination",
+    "description": "I developed a fully functional examination web application that has been in use for 3+ years to examine applicants to the company."
+  }
+]
