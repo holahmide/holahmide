@@ -30,34 +30,22 @@
     "description": "Hellio Messaging is a Single & Bulk SMS messaging app in West Africa."
   },
   {
-    "url": "https://ghm.lmu.edu.ng",
-    "image": "ghm",
-    "title": "Gilgal House Media",
-    "description": "Gilgal House Media is the media company that provides graphics and audio services."
-  },
-  {
-    "url": "https://ghm.lmu.edu.ng",
-    "image": "exam2",
-    "title": "CBT Examination",
-    "description": "I developed a fully functional examination web application that has been in use for 3+ years to examine applicants to the company."
+    "url": "https://jetronmall.com",
+    "image": "mall-jetron",
+    "title": "Jetron Mall",
+    "description": "Jetron Mall is an An intermediary online store making easy and stress-free exchange between brands and buyers. Promoting the new generation culture."
   },
   {
     "url": "",
     "image": "coe",
-    "title": "COE Voting Site",
+    "title": "COE Voting Site (Private)",
     "description": "A fully responsive and interactive voting site with up to 1500+ users for an annual election."
   },
   {
     "url": "",
     "image": "church1",
-    "title": "Church Management System",
+    "title": "Church Management System (Private)",
     "description": " I developed a church management apllication with features such as member detail tracking, offering/tithe/contribution recording, seating assignment due to COVID-19, graphical statistics display for decision making etc."
-  },
-  {
-    "url": "https://tic-tac-toe.aolamide.com",
-    "image": "tictactoe",
-    "title": "Tic-Tac-Toe with Websocket",
-    "description": "I wanted to explore websockets😅, so i developed a simple multiplayer tictactoe game."
   },
   {
     "url": "https://holahmide.github.io/memory-cards-with-VueJS/",

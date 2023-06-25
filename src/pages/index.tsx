@@ -9,6 +9,7 @@ import Projects from '../components/Projects';
 import SEO from '../components/SEO';
 
 const socialsIconSize = '20px';
+
 const languageHighlightStyles = {
   backgroundColor: 'grey',
   marginLeft: '6px',
@@ -16,6 +17,7 @@ const languageHighlightStyles = {
   fontWeight: 'bold',
   color: 'white'
 };
+
 const headerStyles: any = {
   textAlign: 'center'
 };
@@ -154,7 +156,7 @@ const IndexPage = ({ data }: { data: any }) => {
             <Box>
               <Text>
                 Hello, I'm <span style={{ color: '#FF6B46', fontWeight: 'bold' }}>Olamide Oluwaseyi ADENIYI</span>. A full stack
-                developer💻 that loves programming and its concepts and also a <b>software engineer👨‍🔧.</b>
+                developer💻 that loves programming and its concepts👨‍🔧.
               </Text>
               <br />
               <Text>
