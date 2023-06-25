@@ -42,6 +42,7 @@ const IndexPage = ({ data }: { data: any }) => {
                   alt="My Picture"
                   placeholder="blurred"
                 />
+
                 <Flex marginTop="20px" justifyContent="center" gap="5">
                   <a href={process.env.GATSBY_INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
                     <BsInstagram fontSize={socialsIconSize} />
