@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=holahmide&label=Profile%20views&color=0e75b6&style=flat" alt="holahmide" /> </p>
 
-- 🔭 I’m currently working on [Brigow Homes](https://brigow-coming-soon.vercel.app)
+- 🔭 I’m currently working on [Brigow Homes](https://brigow.com)
 
 - 🌱 I’m currently learning **Blockchain Development with Solidity**
 
