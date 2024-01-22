@@ -3,7 +3,7 @@
 <p>Super engineer with a knack for unraveling problems and a heart that beats for automation. Initiated into the coding realm by a tech-savvy cousin, my engineering roots run deep, and my obsession for problem-solving has known no bounds. I love working at startups where my impact can be shown quickly, but I also don't mind big tech. </p>
 
 - 🔭 I’m currently working on [Brigow Homes](https://brigow.com)
-- 🌱 I’m currently learning **Blockchain Development with Solidity**
+- 🌱 I’m currently learning **Golang** and very interested in **LLMs**.
 - 👯 I’m looking to collaborate on **projects that solve real world problems and provide sustainable solutions for a better future**
 - 👨‍💻 All of my projects are available at [https://oladev.net](https://oladev.net)
 - 💬 Ask me about **Typescript, NodeJs, ReactJs and NextJs.**
