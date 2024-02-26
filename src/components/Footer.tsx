@@ -12,7 +12,7 @@ const Footer = () => {
         pt={3}
         pb={3}
       >
-        <Text>&copy; Copyright {'2022'}</Text>
+        <Text>&copy; Copyright {new Date().getFullYear()}</Text>
         <Text>Adeniyi Olamide</Text>
       </Box>
     </Box>
