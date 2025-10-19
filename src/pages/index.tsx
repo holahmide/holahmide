@@ -71,7 +71,7 @@ const IndexPage = ({ data }: { data: any }) => {
                   </Text>
                   <Text my={{ base: '0', lg: '20px' }}>
                     I'm <span style={{ color: '#FF6B46', fontWeight: 'bold' }}>Adeniyi Olamide</span>, best called <b>Ola</b>! I
-                    build great stuffs for the web 🚀.
+                    build great stuff for the web 🚀.
                     <br />
                   </Text>
                   <Text mb="20px">
